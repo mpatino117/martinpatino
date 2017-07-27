@@ -126,6 +126,18 @@ div.col-sm-3 img.profile-avatar {
   text-align: left;
 }
 
+.pagination>.active>a {
+   z-index: 2;
+    color: #fff;
+    background-color: #3fa757 !important;
+    border-color: #3fa757 !important;
+    cursor: default;
+}
+
+.pagination>li>a {
+    color: #555 ;
+}
+
 /* Social Icons */
 .social{
   display: block;
